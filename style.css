@@ -43,13 +43,31 @@ a {
 
 .container1 {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 20px;
-    font-weight: bold;
     padding: 30px 15%;
     background: #1F2937;
+    height: 270px;
 }
 
+
 .top-image {
-    height: 100%;
-    width: 100%;
+    display: flex;
+}
+
+.subheading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
 }
