@@ -60,14 +60,59 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 3px;
 }
 
-.text {
+.texthero {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 3px;
 }
 
 button {
-    background-color: #3882f6;
-    color: #F9FAF8;
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 30px 15%;
+    background: white;
+    height: 270px;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 30px 15%;
+    background: #E5E7EB;
+    height: 270px;
+}
+
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 30px 15%;
+    background: white;
+    height: 270px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 30px 15%;
+    background: #1F2937;
+    height: 72px;
 }
