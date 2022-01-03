@@ -10,7 +10,7 @@ body {
     display: flex;
     font-size: 20px;
     font-weight: bold;
-    margin: 0;
+    padding: 30px 15%;
 }
 
 .block1 {
@@ -19,6 +19,7 @@ body {
     height: 72px;
     background: #1F2937;
     color: white;
+    justify-content: space-between;
 }
 
 .headerlinks {
@@ -29,7 +30,26 @@ body {
 
 ul.headerlinks {
     display: flex;
-    justify-content: space-evenly;
     gap: 16px;
     list-style-type: none;
+    margin-left: auto;
+    padding: 30px 15%;
+}
+
+a {
+    text-decoration: none;
+    color:  #E5E7EB;
+}
+
+.container1 {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 15%;
+    background: #1F2937;
+}
+
+.top-image {
+    height: 100%;
+    width: 100%;
 }
