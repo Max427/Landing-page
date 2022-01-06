@@ -35,7 +35,7 @@ body {
 
 ul.headerlinks {
     display: flex;
-    gap: 16px;
+    gap: 25px;
     list-style-type: none;
     margin-left: auto;
     padding: 1em 15%;
@@ -64,7 +64,7 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin-bottom: 1em;
+    margin-bottom: 0.3em;
 }
 
 .texthero {
